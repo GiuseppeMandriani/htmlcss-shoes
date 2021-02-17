@@ -68,6 +68,7 @@ body{
 
 .full-section .content img{
     max-width: 100%;
+    filter: drop-shadow(50px 50px 20px rgba(0,0,0,0.7));
 }
 
 .sezione-uno{
@@ -85,4 +86,16 @@ body{
 .sezione-tre .content{
         color: red;
 }
+
+
+.full-section img{
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.full-section:hover img{
+    opacity: 1;
+}
+
+
 
